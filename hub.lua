@@ -130,7 +130,7 @@ end)
 local row1 = AddRow("row1")
 local Infyield = AddButton(row1, "Infinity Yield")
 local ring = AddButton(row1, "Super Ring Parts")
-local nofall = AddButton(row1, "Super Ring Parts")
+local nofall = AddButton(row1, "NoFall")
 
 Infyield.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
